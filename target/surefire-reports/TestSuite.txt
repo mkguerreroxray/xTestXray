@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.308 s <<< FAILURE! - in TestSuite
+iMoneyTransTestCasesAllBrowsers.LoginTest.DriverInitialize  Time elapsed: 1.041 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated DriverInitialize.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+
